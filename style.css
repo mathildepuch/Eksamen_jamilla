@@ -4,9 +4,34 @@
     
 
 .navigation {
-
-
+    /*Navigationstyle fra dans, dans, dans tema (ballet)*/ 
+    display: flex; 
+    list-style: none;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    width: 80%;
+  
+  }
+  
+  .navigation ul li a {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: #3B3B4A;
+    display: block;
+    text-align: center;
+    font-size: 10px;
+    font-weight: regular;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+  }   
+ul{
+    list-style-type: none;
 }
+
+
+
+
 
 Mathilde (250 linjer)
 
