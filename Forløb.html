@@ -7,31 +7,104 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jamilla Wittrup</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+      <!--Link til fontawesome ikoner-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
 </head>
 <header>
-<nav class="navigation">
-    <ul>
-        <li>
-            <a href="ommig.html"> Om mig</a>
-        </li>
-        <li>
-            <a href="kontakt.html">kontakt</a>
-        </li>
-        <li>
-            <a href="forløb.html">Træningsforløb</a>
-        </li>
-        <li>
-            <a> Bliv inspireret </a>
-        </li>
-    </ul>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-</nav>
-
+<!-- Top Navigation Menu -->
+<div class="topnav">
+<img src="img/Logo/JW-logo.svg" alt="logo" style="height: 8%; width: 16%;">
+  <a href="index.html" class="active"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="index.html">Forside</a>
+    <a href="ommig.html">Om mig</a>
+    <a href="kontakt.html">Kontakt</a>
+    <a href="Forløb.html">Træningsforløb</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
 </header>
+        
 <body>
-<footer>
-    HEJ
-</footer>
+    <br>
+    <section class="første_sektion"> <!-- sektion om pris-->
+        <hr class="Streg">
+
+        <h1 class="personligtræning"> TRÆNINGSFORLØB</h1>
+
+        <hr class="Streg">
+
+        <h1 class="personligtræning"> Personlig træning</h1>
+
+     <img src="Styrke_img.JPG" alt="pull" class="styrke_img" style="height: 50%; width: 100%;">
+     <p class="forløb_text">De fleste vælger at få en personlig træner, fordi de har brug for en hjælpende hånd til at nå deres mål. Mange synes også at det er rart med en træner der tager styringen og fortæller hvad der skal laves og hvordan det skal laves, så man ikke står som en stort spørgsmålstegn og føler at man skal have styr på hvordan maskinerne fungerer og hvilke øvelser der er gode til lige præcis dét man vil have fokus på. 
+        En personlig træner er en langsigtet investerning i dig selv, din krop og din mentale sundhed. </p>
+    <br>
+    <p class="forløb_text"> Hvor: Charlottehaven</p>
+    <br>
+    <hr class="Streg">
+    </section>
+
+    <section class="anden_sektion">
+
+        <h1 class="personligtræning">Gruppetræning</h1>
+        
+        <img src="push.jpg" alt="push" class="push_img" style="height:50%; width: 100%;">
+
+        <p class="forløb_text">Gruppe træning er for dig som godt kunne tænke sig en personlig træner, som lægger et program og tager styringen over sessionen, 
+            men som også ønsker sig et socialt aspekt over træningen. Ved gruppe træning er det både træneren og alle de andre på holdet, der er med til at give motivation og få dig til at yde så meget du kan. 
+            Kom med til gruppetræning om mandagen, hvor stemningen altid er i top og du er sikker på at få sved på panden.</p>
+        <br>
+        <p class="indgang">Hvor: Foran SMK (Statens Museum for Kunst)</p>
+        <br>
+        <p class="indgang">Hvornår: Hver mandag kl. 17:30</p>
+        </section>
+
+    <section class="brun_section">
+        <h1 class="personligtræning"> Personlig træning pris </h1>
+        <div class="pris"> <!--prisliste-->
+            <ul>
+                <li> - 1 gang om ugen 3400 kr./md. </li>
+                <li> - 2 gange om ugen 6000 kr./md.</li>
+                <li> - 3 gange om ugen 7800 kr./md. </li>
+              </ul> 
+         </div>
+         <p class="indgang"> *Indgang til Charlottehaven er inkluderet i prisen</p>
+        <h1 class="personligtræning">Gruppetræning pris</h1>
+        <p class="session">130 kr. pr. session eller  500 kr./md.</p>
+     </section>
+
+     
+    <p class="forløb_text">Er du interesseret i et af mine træningsforløbog vil du høre mere? Så Lad os tage en uforpligtende samtale </p>
+    <button type="button" class="forløb-button" onclick="window.location.href='Forløb.html'">Kontakt mig her </button>
+
+  
+    
+    
+    
+     <footer>
+        <div class="socialmedia-icons">
+            <img src="img/Logo/JW-logo.svg" alt="logo-footer" width="75"> <br>
+            <a href="https://www.instagram.com/jamilla.wittrup/"><img src="img/Archive (1)/insta.png" alt="insta" width="30" class="icons"></a>
+            <a href="https://www.linkedin.com/in/jamilla-wittrup-issaka-1919a0177/"><img src="img/Archive (1)/linkedin.png" alt="linkedin" width="30" class="icons"></a>
+        </div>     
+    <p>
+        Min filosofi <br>
+        <br>
+        Ofte stillede spørgsmål <br>
+        <br>
+        Cookie- og privatlivspolitik
+    </p>
+    </footer>
+<script src="script.js"></script>
     
 </body>
 </html>
