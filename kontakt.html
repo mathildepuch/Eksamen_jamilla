@@ -4,62 +4,65 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jamilla Wittrup</title>
+    <title>Jamilla Wittrup - Kontakt - Personlig træner</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="description" content="At få en personlig træner er både en investering i din krop og mentale helbred. Sammen skrædersyer vi et program som passer lige netop til dig">
+    <meta name="keywords" content="personlig træner østerbro, vittrup, efter fødsels genoptræning, personlig træner charlottehaven, personlig træning København, summerbody, wittrup, jamilla wittrup, performance optimering, vægttab og muskelopbygning, funktionel træning, efterfødsels genoptræning">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="column-left">
-            <img src="img/Logo/JW-logo2.svg" alt="logo" style="height: 8%; width: 16%;">
-        </div>
+        <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        <nav class="navigation">
-            <ul>
-                <li>
-                    <a href="ommig.html"> Om mig</a>
-                </li>
-                <li>
-                    <a href="kontakt.html">kontakt</a>
-                </li>
-                <li>
-                    <a href="Forløb.html">Træningsforløb</a>
-                </li>
-                <li>
-                    <a> Bliv inspireret </a>
-                </li>
-            </ul>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+            <img src="img/Logo/img:Logo:JW-logo2.svg" alt="jamilla wittrup logo håndvægt" style="height: 8%; width: 16%;">
+            <a href="index.html" class="active"></a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="index.html">Forside</a>
+             <a href="ommig.html">Om mig</a>
+             <a href="kontakt.html">Kontakt</a>
+             <a href="Forløb.html">Træningsforløb</a>
+        </div>
+         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+         <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
         
-        </nav>
-        
-        </header>
         <section>
-            <img src="img/Archive (1)/rosalinje.png" alt="linje" class="rosalinje">
+            <img src="img/Archive(1)/rosalinje.png" alt="linje" class="rosalinje">
             <h1 class="h1-kontakt">VIL DU HØRE MERE?</h1>
             <h2 class="h2-kontakt">Kontakt mig her og få en gratis og uforpligtende samtale</h2>
-            <img src="img/Archive (1)/rosalinje.png" alt="linje" class="rosalinje">
+            <img src="img/Archive(1)/rosalinje.png" alt="rosalinje" class="rosalinje">
         </section>
 
-        <section>
+        <section class="kontakt-grid">
+            <div>
+                <img src="img/jam.JPG" alt="jamilla biceps træning" class="kontakt-jamilla">
+            </div>
+            
+
             <!-- Kontaktform taget fra W3schools d. 1/6-22 på: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form -->
             <div class="kontakt-container">
                 <!-- linje 46 gør så man kan få lov at udfylde/skrive i formularen-->
                 <form action="/action_page.php">
-                   <ul class="ul-kontakt">
+                   
                         <label for="name">Navn*</label>
                         <input type="text" id="name" name="name" placeholder="Dit navn.." class="kontaktbox">
-                    </ul>
-                    <ul class="ul-kontakt">
+                    
                         <label for="e-mail">E-mail*</label>
                         <input type="text" id="e-mail" name="e-mail" placeholder="E-mail.." class="kontaktbox">
-                    </ul>
-                    <ul class="ul-kontakt">
+                  
                         <label for="nummer"> Telefonnummer*</label>
                         <input type="text" id="nummer" name="telefonnummer" placeholder="Telefonnummer.." class="kontaktbox">
-                    </ul>
                     
-                    <ul class="ul-kontakt">
-                        <label for="vmuligheder"> Hvad vil du gerne have hjælp til?*</label>
-                    </ul>
+                    
+                        <label for="options"> Hvad vil du gerne have hjælp til?*</label>
+                    
                     
                     <!--Chekbokse fundet på W3schools d. 1/6 på: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_checkbox-->
                     <label class="checkbox-container">Muskelopbygning
@@ -83,11 +86,11 @@
                         <span class="checkbox"></span>
                     </label>
 
-                    <ul class="ul-kontakt">
+                    
                         <label for="besked">Besked*</label>
                         <textarea id="besked" name="besked" placeholder="Besked.." class="textbox"></textarea>
-                    </ul>
-                    <input type="send" value="SEND" class="sendknap">
+                    
+                    <input type="submit" value="SEND" class="sendknap">
                 </form>
             </div>
 
@@ -98,24 +101,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 <footer>
     <div class="socialmedia-icons">
-        <img src="img/Logo/JW-logo2.svg" alt="logo-footer" width="75"> <br>
-        <a href="https://www.instagram.com/jamilla.wittrup/"><img src="img/Archive (1)/insta.png" alt="insta" width="30" class="icons"></a>
-        <a href="https://www.linkedin.com/in/jamilla-wittrup-issaka-1919a0177/"><img src="img/Archive (1)/linkedin.png" alt="linkedin" width="30" class="icons"></a>
+        <img src="img/Logo/img:Logo:JW-logo2.svg" alt="jamilla wittrup logo håndvægt" width="75"> <br>
+        <a href="https://www.instagram.com/jamilla.wittrup/"><img src="img/Archive(1)/insta.png" alt="insta" width="30" class="icons"></a>
+        <a href="https://www.linkedin.com/in/jamilla-wittrup-issaka-1919a0177/"><img src="img/Archive(1)/linkedin.png" alt="linkedin" width="30" class="icons"></a>
     </div>     
 <p>
     Min filosofi <br>
@@ -126,7 +116,6 @@
 </p>
     
 </footer>
-
+<script src="script.js"></script>
 </body>
-
 </html>
