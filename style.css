@@ -1868,11 +1868,12 @@ padding-bottom: 5%;
     margin: 0 auto;
 }
 
-.checklist {
-    text-align: center;
+.check {
+    width: 20px;
 }
 
 .checktext {
+    display: inline;
     font-family: effra, sans-serif;
 }
 .minbaggrund {
