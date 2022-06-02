@@ -1,9 +1,41 @@
-/* Style the navigation menu */
-/* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background-color: rgb(255, 255, 255);
-  position: relative;
+.navigation {
+        /*Navigationstyle fra dans, dans, dans tema (ballet)*/ 
+        display: flex; 
+        margin-left: auto;
+        margin-right: auto;
+        list-style: none;
+        justify-content: center;
+        text-transform: uppercase;
+        text-align: center;
+        width: 95%;
+      
+      }
+      
+.navigation ul li a {
+        text-decoration: none;
+        padding: 0.5rem;
+        color: #3B3B4A;
+        display: block;
+        text-align: center;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: regular;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+        
+      }   
+ul{
+        list-style-type: none;
+    }
+
+body {
+        max-width: 100%;
+    }
+
+footer {
+    text-transform: uppercase;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 /* Hide the links inside the navigation menu (except for logo/home) */
@@ -36,23 +68,6 @@
   background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
-  
-
-<<<<<<< Updated upstream
-footer {
-    text-transform: uppercase;
-}
-
-=======
-=======
->>>>>>> Stashed changes
->>>>>>> Stashed changes
-
-    
-
-
-
-
 
 /* Mathilde (250 linjer) */
 
@@ -69,10 +84,23 @@ footer {
 /* link til hvordan man laver stregen og styler den https://blog.hubspot.com/website/blog/tabid/6307/bid/19727/easy-html-tricks-for-the-non-technical-marketer.aspx*/
 hr{ 
     width: 80%;
-    height: 1px;px;
+    height: 1px;
     border-width:0;
     background-color:#AC7A64;
 }
+.forløbgrid-container{
+    margin-bottom: 10%;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1px;
+    grid-row-gap: 0px;
+    }
+.styrke_img{
+    height: 200px;
+}
+
 
 .forløb_text{
     padding-left: 15px;
@@ -100,9 +128,7 @@ ul{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.push_img{
-    height: 100px;
-}
+
 .session{
     text-align: center;
     padding-bottom: 20px;
@@ -155,17 +181,27 @@ footer{
         display: flex;
     }
 .personligtræning{
-    font-size: 50px;
+    font-size: 10px;
 }
-.personlig{
-    font-size: 40px;
+.personligtræning{
+    font-size: 10px;
 }
+
 
 .topnav ul{
     flex-direction: row;
 }  
 
+.personligtræning{
+    font-size: 15px;
+}
 
+.forløbgrid-container{
+    column-count: 2;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
+}
 
 
 
@@ -293,11 +329,7 @@ footer{
 
 
 
-
-
-
-
-
+/*kan gå til 407*/
 
 
 
@@ -550,6 +582,7 @@ footer {
       }
     }
 
+  
 
 
 
@@ -679,6 +712,243 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 /*jessicca*/
 .h1-kontakt {
     text-align: center;
@@ -696,22 +966,15 @@ footer {
     margin: 25px;
 }
 
-.mobil-streg {
-    width: 325px;
-    
-
-}
 
 .kontakt-container {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     margin-top: 100px;
     margin-bottom: 150px;
-    
+    width: 100%;
 
 }
-
-
 
 
 
@@ -723,7 +986,6 @@ footer {
 
 
 
-
 .sendknap {
     width: 70px;
     height: 30px;
@@ -732,6 +994,8 @@ footer {
     color: #AC7A64;
     margin-left: 10px;
     padding: 5px;
+    background-color: #FFFFFF;
+    margin-top: -10px;
 
 }
 
@@ -744,11 +1008,6 @@ footer {
 
 }
 
-.ul-kontakt {
-    padding: 10px;
-    margin-top: 25px;
-
-}
 
 .checkbox-container {
     display: block;
@@ -759,7 +1018,7 @@ footer {
     font-size: 15px;
     margin-bottom: 50px;
     margin-left: 10px;
-    margin-top: 5px;
+    margin-top: 40px;
 }
 
 /* Dette gør, at de checkbokse som browseren har pr. default bliver gemt, så man kan lave sine egne*/
@@ -778,11 +1037,13 @@ footer {
     height: 15px;
     width: 15px;
     border: 1px solid #AC7A64; 
+
 }
 
 
 
-/* Hjælp til styling af tekstbokse i kontaktformnularen er taget fra W3school d. 1/6-22 på: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form */
+/* Hjælp til styling af tekstbokse i kontaktformnularen er taget fra W3schools 
+d. 1/6-22 på: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -791,31 +1052,70 @@ input[type=text], select, textarea {
     margin-top: 10px;
     resize: vertical;
     margin-left: 0px;
+    margin-bottom: 50px;
+    margin-right: 0px;
+}
+
+/*billede som kun skal vises på computer versionen*/
+.kontakt-jamilla {
+    display: none;
 }
 
 
 
+/* 600px er breakpoint for telefoner */
+@media screen and (min-width: 600px) {
+
+    .h1-kontakt {
+        font-size: 35px;
+    
+    }
+    
+    .h2-kontakt {
+        font-size: 22px;
+        margin: 25px;
+    }
+    
+    .rosalinje {
+        display: none;
+    }
+
+    .kontakt-container {
+        width: 500px;
+        
+    }
+
+    .kontakt-jamilla {
+        display: initial;
+        width: 500px;
+        margin: 100px;
+        
+    }
+
+    .kontakt-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 1px;
+        
+    }
 
 
+    .sendknap {
+        width: 100px;
+        height: 45px;
+    }
 
+    .checkbox-container {
+        padding-left: 35px;
+        margin-bottom: 30px;
+        cursor: pointer;
+        font-size: 15px;
+        margin-left: 10px;
+        margin-top: 40px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -1594,27 +1894,137 @@ input[type=text], select, textarea {
 
 
 /* Hanna (250) */
-.header {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: normal;
-    max-width: 100%;
+.navn {
+text-align: center;
+font-family: utile-narrow, sans-serif;
+font-size: 30px;
+font-weight: lighter;
+margin-bottom: -25px;
+}
+
+.titelnavn {
+color: #909090;
+font-weight: lighter;
+font-family: utile-narrow, sans-serif;
+font-size: 20px;
+}
+
+.rosalinje {
+    margin-top: 15px;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
 }
 
 .forside {
-    background-color:#DDD4C9;
-    padding-top: 5%;
-    padding-bottom: 5%;
+text-align: center;
+max-width: 100%;
+background-color:#DDD4C9;
+padding-top: 5%;
+padding-bottom: 5%;
 }
 
+.introbillede {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
 
+.introtitel {
+    font-family: utile-narrow,sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 40px;
+    text-align: left;
+    margin-left: 10px;
+}
 
+.introtext {
+    font-family: effra, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 10px;
+}
 
+.træningsforløb-knap {
+    align-items: center;
+    background-color: #8D8072;
+    border: 0;
+    border-radius: 5px;
+    color:#FFFFFF;
+    cursor: pointer;
+    display: flex;
+    font-family: effra, sans-serif;
+    font-weight: 200;
+    min-height: 40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 22px;
+    padding-right: 22px;
+    touch-action: manipulation;
+    margin: 0 auto;
+}
 
+.checklist {
+    text-align: center;
+}
 
+.checktext {
+    font-family: effra, sans-serif;
+}
+.minbaggrund {
+    text-align: center;
+}
 
+.baggrundtext {
+    font-family: effra, sans-serif;
+}
 
+.fokus {
+    text-align: center;
+}
 
+.fokustext {
+    font-family: effra, sans-serif;
+}
+
+.titeludtalelser {
+    text-align: center;
+    font-family: utile-narrow,sans-serif;
+}
+
+/* rounded img - border radius fra https://www.w3schools.com/howto/howto_css_rounded_images.asp */
+.klara {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: 5%;
+    margin-bottom: 35px;
+}
+
+.klaraudtalelse {
+    font-family: effra, sans-serif;
+}
+
+.klaranavn {
+    font-family: utile-narrow, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -10px;
+}
+
+.kontakt {
+    background-color: #A79C8F;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
 
 
 
