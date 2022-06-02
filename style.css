@@ -68,14 +68,6 @@ footer {
   background-color: #ffffff;
   color: rgb(0, 0, 0);
 }
-  
-
-
-    
-
-
-
-
 
 /* Mathilde (250 linjer) */
 
@@ -96,6 +88,19 @@ hr{
     border-width:0;
     background-color:#AC7A64;
 }
+.forløbgrid-container{
+    margin-bottom: 10%;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 1px;
+    grid-row-gap: 0px;
+    }
+.styrke_img{
+    height: 200px;
+}
+
 
 .forløb_text{
     padding-left: 15px;
@@ -123,9 +128,7 @@ ul{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.push_img{
-    height: 100px;
-}
+
 .session{
     text-align: center;
     padding-bottom: 20px;
@@ -178,18 +181,31 @@ footer{
         display: flex;
     }
 .personligtræning{
-    font-size: 50px;
+    font-size: 10px;
 }
-.personlig{
-    font-size: 40px;
+.personligtræning{
+    font-size: 10px;
 }
+
 
 .topnav ul{
     flex-direction: row;
 }  
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 }
 
+.personligtræning{
+    font-size: 15px;
+}
 
+.forløbgrid-container{
+    column-count: 2;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    }
 
 
 
@@ -317,10 +333,7 @@ footer{
 
 
 
-
-
-
-
+/*kan gå til 407*/
 
 
 
@@ -512,8 +525,7 @@ footer {
     }
     }
 
-
-
+  
 
 
 
